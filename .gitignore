@@ -1,3 +1,4 @@
 secrets.*
 tweets_analyzer.py
 tweets
+.DS_Store
