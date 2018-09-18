@@ -10,9 +10,15 @@
 <body>
 
 	<div class="container">
-		<h3 class="text-center">SEC University Tweet Analyzer</h3>
-		<p class="text-center">Travis Ryan, WKU Honors Thesis</p>
+		<h3 class="text-center">University Tweet Analyzer</h3>
 		<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		<br>
+		<h3>Click to Change Sample</h3>
+		<div class="center-block">
+			<button type="button" class="btn btn-primary" onclick="showSEC()">SEC</button>
+			<button type="button" class="btn btn-success" onclick="showIvy()">Ivy League</button>
+		</div>
+		<br>
 		<h3>Keywords Used</h3>
 		<p>
 			<b>Sports: </b> game, sports, ball, soccer, lacrosse, field hockey, bowling, tennis, hockey, rugby, athletics,
@@ -27,6 +33,8 @@
 			keywords, putting the tweet into a category: "sports" or "academics" (or in rare cases, both). The above graph
 			depicts these results.
 		</p>
+		<hr>
+		<p style="text-align: center">Built by Travis Ryan for a WKU Honors Thesis. View the project on Github <a href="https://github.com/TravisJRyan/UniversityTweetAnalyzer">here.</a></p>
 	</div>
 
 	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
